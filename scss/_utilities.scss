@@ -1,0 +1,207 @@
+:root {
+    --primary-color:#FF69B4;
+    --secondary-color:#e75480;
+    --third-color: black;
+    --fourth-color: #f0f0f0;
+    --light-color: #f0f0f0;
+}
+
+.container { 
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+    
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+} 
+
+.bg-primary, .btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.bg-secondary, .btn-secondary {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.bg-dark, .btn-dark {
+    background-color: var(--third-color);
+    color: white;
+}
+
+.bg-light, .btn-light {
+    background-color: var(--fourth-color);
+    color: #333;
+}
+
+
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a, 
+.btn-secondary a,
+.bg-dark a, 
+.btn-dark a,
+.bg-light a,
+.btn-light a {
+    color: white;
+}
+
+//text color 
+
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-primary {
+ color: var(--secondary-color);
+
+}
+
+.text-primary {
+  color: var(--third-color);
+
+}
+
+.text-primary {
+color: var(--fourth-color);
+}
+
+/* TEXT SIZES */
+.sm {
+    font-size: 1rem;
+}
+.md {
+    font-size: 2rem;
+}
+.lg {
+    font-size: 3rem;
+}
+.xl {
+    font-size: 4rem;
+}
+
+
+//for margins 
+
+.my-1 {
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 1.5rem 0;
+}
+
+.my-3 {
+    margin: 2rem 0;
+}
+
+.my-4 {
+    margin: 3rem 0;
+}
+
+.my-5 {
+    margin: 4rem 0;
+}
+
+
+.m-1 {
+    margin: 1rem 0;
+}
+
+.m-2 {
+    margin: 1.5rem 0;
+}
+
+.m3-3 {
+    margin: 2rem 0;
+}
+
+.m4-4 {
+    margin: 3rem 0;
+}
+
+.m5-5 {
+    margin: 4rem 0;
+}
+
+//paddings 
+
+.py-1 {
+    padding: 1rem;
+}
+
+.py-2 {
+    padding: 1.5rem;
+}
+
+.py-3 {
+    padding: 2rem;
+}
+
+.py-4 {
+    padding: 3rem;
+}
+
+.py-5 {
+    padding: 4rem;
+}
+
+
+.p-1 {
+    padding: 1rem;
+}
+
+.p-2 {
+    padding: 1.5rem;
+}
+
+.p-3 {
+    padding: 2rem;
+}
+
+.p-4 {
+    padding: 3rem;
+}
+
+.p-5 {
+    padding: 4rem;
+}
+
+//alerts 
+
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+
+    i{
+        margin-right: 10px;
+    }
+}
+
+.alert-success {
+    background-color: lightgreen;
+    color: #333;
+}
+
+.alert-error {
+    background-color: red;
+    color: #fff;
+
+}
+
+//text color 
+
+.text-primary {
+    color: red;
+}

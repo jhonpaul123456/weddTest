@@ -1,0 +1,29 @@
+.lead {
+    font-size: 20px;
+}
+
+.fourth-section .grid {
+    grid-template-columns: 4fr 3fr;
+}
+
+// languages //
+.prog-lang .card {
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: transform 0.2s ease-in;
+
+
+  
+}
+
+.prog-lang h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.prog-lang .card:hover {
+    transform: translateY(-15px);
+}
+.prog-lang .flex {
+    flex-wrap: wrap;
+}
+
